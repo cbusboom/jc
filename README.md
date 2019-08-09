@@ -53,7 +53,7 @@ Below is an example of how to use the **Action Statistics Library**:
 
 ## How to download code and run it
 
-**NOTE: These instructions assume you have 'go' installed on your computer**
+**NOTE: These instructions assume you have 'git' and 'go' installed on your computer**
 
 On your computer create a directory to download the code to:
 
@@ -69,7 +69,7 @@ Run the example program:
     cd ~/scratch/jc
     go run main.go
 
-Run the test cases for actionstats:
+Run test cases for the Action Statistics Library:
 
     cd ~/scratch/jc/lib
     go test -v
