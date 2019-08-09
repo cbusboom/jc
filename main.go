@@ -4,7 +4,7 @@
 package main
 
 import (
-    "github.com/cbusboom/jc/lib"
+    "./lib"
     "fmt"
 )
 
