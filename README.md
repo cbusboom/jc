@@ -3,13 +3,13 @@
 ## Action Statistics Library
 
 This library class provides action statistics.
-Action times are recorded in the statistics via the **addAction** method.
-Action averages can be retrieved via the **getStats** method.
+Action times are recorded in the statistics via the **AddAction** method.
+Action averages can be retrieved via the **GetStats** method.
 Each of these methods are described below:
 
 ### Add Action
 
-    addAction(string) returning error
+    AddAction(string) returning error
 
 This function accepts a JSON serialized string of the form below and maintains an average time
 for each action. Below are three sample inputs:
@@ -20,10 +20,10 @@ for each action. Below are three sample inputs:
 
 ### Get Statistics
 
-    getStats() returning string
+    GetStats() returning string
 
 This function returns a JSON array of the average time for each action that has been
-recorded by the **addAction** function. The output after the 3 sample inputs (above) would be:
+recorded by the **AddAction** function. The output after the 3 sample inputs (above) would be:
 
     [
       {"action":"jump","avg":150},
