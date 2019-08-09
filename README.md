@@ -37,7 +37,7 @@ Below is an example of how to use the **Action Statistics Library**:
     package main
 
     import (
-        "github.com/cbusboom/jc/pkg"
+        "./lib"
         "fmt"
     )
 
